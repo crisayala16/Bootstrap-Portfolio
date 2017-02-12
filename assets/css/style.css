@@ -33,3 +33,6 @@ body{
 		.teal-border{
 			border-top: 3px solid teal;
 		}
+		.text-teal{
+			color: teal;
+		}
