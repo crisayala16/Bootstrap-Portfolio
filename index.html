@@ -6,25 +6,37 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand|Work+Sans" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+	<!-- Navbar -->
 	<div class="container-fluid">
 
-		<nav class="navbar navbar-default">
+		<nav class="navbar bg-white navbar-default">
+
 			<div class="container">
-				<div class="navbar-header">
+
+				<!-- Navbar header -->
+				<header class="navbar-header">
+
+					<!-- Collapse button -->
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand text-primary">Cristopher Ayala Paz</a>
+					<!-- End of collapse button -->
 
-				</div>
+					<!-- Logo -->
+					<a class="navbar-brand text-header">Cristopher Ayala Paz</a>
+					<!-- End of Logo -->
 
+				</header>
+				<!-- End of Navbar Header -->
+
+				<!-- Navigation -->
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="index.html">About</a></li>
@@ -32,41 +44,81 @@
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</div>
+				<!-- End of Navigation -->
+
 			</div>
+
 		</nav>
+
 	</div>
+	<!-- End of Navbar -->
+
 	<div class="container">
+
 		<div class="row">
-			<div class="panel bg-white col-md-8 col-sm-8 col-xs-12 pull-left down-padding">
+
+			<!-- About Me Section -->
+			<section class="panel bg-white col-md-8 col-sm-8 col-xs-12 pull-left panel-padding">
+				<!-- Header -->
 				<div class="row">
-					<h2 class="panel-header col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center text-teal">About Me</h2>
+					<h2 class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center text-teal">About Me</h2>	
+				</div>
+				<!-- End of Header -->
+				<div class="row">
+				<!-- My Portrait -->
 					<img src="assets/images/me.jpg" class="col-lg-3 col-md-3 col-sm-3 pull-left" width="150px" alt="Cristopher Portrait">
+				<!-- End of My Portrait -->
+				<!-- Placeholder Bio -->
 					<p class="">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<!-- End of Placeholder Bio -->
 					</div>
-				</div>
-				<div class="panel bg-white col-md-3 col-sm-3 col-xs-12 pull-right down-padding" id="connect">
-					<h4 class="panel-header text-center col-sm-12 text-teal">Connect With Me</h4>
+
+				</section>
+				<!-- End of About Me Section -->
+
+				<!-- Connect with Me aside -->
+				<aside class="panel bg-white col-md-3 col-sm-3 col-xs-12 pull-right down-padding" id="connect">
+					<!-- Header -->
+					<h4 class="page-header text-center col-sm-12 text-teal">Connect With Me</h4>
+					<!-- End of header -->
 					<div class="row">
+
+						<!-- Connection link icons -->
 						<div class="col-md-12 text-center">
-							<img src="assets/images/git.jpg" class="icon" alt="git hub icon">
-							<img src="assets/images/linkedin.jpg" class="icon" alt="linked in icon">
-							<img src="assets/images/sof.jpg" class="icon" alt="stack overflow icon">
+							<a href="https://github.com/crisayala16" target="_blank"><img src="assets/images/git.jpg" class="icon" alt="git hub icon"></a>
+							<a href="https://www.linkedin.com/in/cris-ayala-862a24122/" target="_blank"><img src="assets/images/linkedin.jpg" class="icon" alt="linked in icon"></a>
+							<a href="http://stackoverflow.com/users/7362845/cristoper-ayala-paz" target="_blank"><img src="assets/images/sof.jpg" class="icon" alt="stack overflow icon"></a>
 						</div>
+						<!-- End of icons -->
+
 					</div>
-				</div>
-			</div>	
-		</div>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12 col-sm-12 col-xs-12">
-					<h4 class="text-center panel bg-grey extra-padding teal-border">@Copyright 2016 Cristopher Ayala Paz</h4>
-				</div>
+
+				</aside>
+				<!-- End of Connect with me aside -->
+
 			</div>
+
 		</div>
+
+		<!-- Footer -->
+		<footer class="container-fluid">
+
+			<div class="row">
+
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<h4 class="text-center panel bg-grey top-bottom-padding teal-border">@Copyright 2016 Cristopher Ayala Paz</h4>
+				</div>
+
+			</div>
+
+		</footer>
+		<!-- End of Footer -->
+
 	</body>
+
 	</html>
