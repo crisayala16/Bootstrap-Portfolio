@@ -92,9 +92,19 @@ body{
 
 /*font sizes*/
 .font-size-regular{
-	font-size: 17px; 
+	font-size: 16px; 
 }
 /*end of font sizes*/
 
+/*Contact section related*/
+.full-width{
+	width: 100%;
+}
+.submit-btn{
+	background: #4aaaa5;
+	width: 100px;
+	color: #fff;
+}
+/*end of contact section*/
 
 
